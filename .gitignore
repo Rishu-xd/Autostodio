@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and sensitive secrets
+.env
+.env.local
+*.key
+*.secret
+
+# SQLite Database and local project storage
+storage/autostudio.db
+storage/autostudio.db-journal
+storage/projects/*
+!storage/projects/.gitkeep
+
+# Manim output and media cache
+media/
+_media/
+*.mp4
+*.png
+*.gif
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
